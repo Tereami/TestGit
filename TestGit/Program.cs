@@ -10,7 +10,7 @@ namespace TestGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello git");
+            Console.WriteLine("Hello git from asus");
             string date = GetDate();
             Console.WriteLine(date);
             Console.ReadKey();
