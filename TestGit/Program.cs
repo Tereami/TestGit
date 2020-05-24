@@ -19,7 +19,7 @@ namespace TestGit
         static string GetDate()
         {
             string date = "";
-            date = DateTime.Now.ToString();
+            date = DateTime.Now.ToLongDateString();
             return date;
         }
     }
