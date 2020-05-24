@@ -29,5 +29,10 @@ namespace TestGit
             time = DateTime.Now.ToLongTimeString();
             return time;
         }
+
+        static string GetDateAndTime()
+        {
+            return DateTime.Now.ToString();
+        }
     }
 }
