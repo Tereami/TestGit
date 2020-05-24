@@ -32,7 +32,8 @@ namespace TestGit
 
         static string GetDateAndTime()
         {
-            return DateTime.Now.ToString();
+            string datetime = DateTime.Now.ToString();
+            return datetime;
         }
     }
 }
